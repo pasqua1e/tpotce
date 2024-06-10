@@ -11,3 +11,6 @@ service_identity==18.1.0
 tftpy==0.8.0
 treq==20.4.1
 twisted==20.3.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
